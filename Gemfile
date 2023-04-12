@@ -1,7 +1,20 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3" # installed by `gem jekyll`
-# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
 
-gem "just-the-docs", "0.5.0" # pinned to the current release
-# gem "just-the-docs"        # always download the latest release
+# If you have any plugins, put them here!
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+group :jekyll_plugins do
+    gem 'jekyll-feed'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-paginate'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-archives'
+    gem 'kramdown'
+    gem 'rouge'
+end
