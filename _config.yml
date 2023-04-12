@@ -1,7 +1,7 @@
 # Site
-name: "Maas Engine"
+name: "MaasEngine"
 title: "Maas Enine"
-description: "Pre-built Microservices factory in your repository."
+description: "Pre-built Microservices Factory in Your Repository."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
