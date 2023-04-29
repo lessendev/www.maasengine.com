@@ -9,7 +9,7 @@ header:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "/docs/quick-start-guide/"
 excerpt: >
-  A pre-built Microservices engine based on Quarkus technology. From database definition, we automatically generate APIs and Kubernetes manifest files for you. Leave you only what essential.<br />
+  From database definition, we automatically generate APIs and Kubernetes manifest files for you. Leave you only what essential.<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
