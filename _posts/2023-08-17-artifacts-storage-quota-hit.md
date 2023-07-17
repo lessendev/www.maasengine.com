@@ -37,7 +37,8 @@ OCI runtime exec failed: exec failed: unable to start container process: exec: "
 command terminated with exit code 126
 Error: Process completed with exit code 126.
 ```
-Let's fix it tomorrow.
+It seems that mariadb no longer support mysql client. So I have to change it to mariadb instead.
+
 
 ## Task Lists
 
