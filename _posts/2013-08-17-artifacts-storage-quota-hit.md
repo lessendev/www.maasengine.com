@@ -2,11 +2,11 @@
 title: "Frustated with GitHub Actions: Artifact storage quota has been hit"
 excerpt: "Post displaying the various ways of highlighting code in Markdown."
 last_modified_at: 2018-01-03T09:45:06-05:00
-categories:
-  - diary
-tags:
-  - github actions
-  - ddlcodegen-main
+header:
+  teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
+tags: 
+  - code
+  - syntax highlighting
 toc: true
 ---
 
