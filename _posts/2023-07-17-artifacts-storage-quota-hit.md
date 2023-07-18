@@ -39,6 +39,15 @@ Error: Process completed with exit code 126.
 ```
 It seems that mariadb no longer support mysql client. So I have to change it to mariadb instead.
 
+### Wait For Module 1
+When I show logs of module1. It reports missing quarkus.oidc.auth-server-url.
+so I added these in application.properties
+
+```
+%prod.quarkus.oidc.auth-server-url=https://bizvelocity.biz:8443/realms/quarkus
+%prod.quarkus.oidc.client-id=backend-service
+%prod.quarkus.oidc.credentials.client-secret.value=secret
+```
 
 ## Task Lists
 
