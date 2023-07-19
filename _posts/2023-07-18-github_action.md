@@ -1,7 +1,7 @@
 ---
-title: "Frustated with GitHub Actions: Artifact storage quota has been hit"
-excerpt: "Cannot upload artifacts and no way to fix it."
-last_modified_at: 2023-07-18T09:45:06-05:00
+title: "'quarkus.oidc.credentials.secret' and 'quarkus.oidc.credentials.client-secret' properties are mutually exclusive"
+excerpt: "Secret must be secret."
+last_modified_at: 2023-07-18T09:45:06-07:00
 tags: 
   - github actions
   - kubernetes
