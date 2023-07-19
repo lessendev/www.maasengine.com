@@ -3,13 +3,13 @@ title: "Mysterious death"
 excerpt: "module1 deployment just stopped without clue."
 last_modified_at: 2023-07-18T09:45:06-07:00
 tags: 
-  - github actions
   - kubernetes
   - gradle
+  - quarkus
 toc: true
 ---
 
-## GitHub Actions
+## Kubernetes
 ### Wait For Module 1
 
 >kubectl describe pod/module1-5989cb84b7-lqd2d
@@ -211,6 +211,12 @@ and the best way is to put this in gradle.properties
 org.gradle.daemon=false
 ```
 which I turned it on before.
+
+## Misc
+### Move GHCR_TOKEN
+GHCR_TOKEN was hardcoded in several files. Yep, I finally moved it to .env file which is ignored by git. It was specified in .gitignore file.
+### Move Keycloak port from 8443 to 7443
+When I tried to debug locally I found that the port 8443 is conflicted as I already specified port for testsuite-moduleX.
 
 ## Task Lists
 
