@@ -1,7 +1,7 @@
 ---
 title: "Mysterious death"
 excerpt: "module1 deployment just stopped without clue."
-last_modified_at: 2023-07-18T09:45:06-07:00
+last_modified_at: 2023-07-19T04:37:00-07:00
 tags: 
   - kubernetes
   - gradle
