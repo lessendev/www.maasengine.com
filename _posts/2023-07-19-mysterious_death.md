@@ -152,7 +152,7 @@ Events:
 2023-07-19 11:45:55,564 WARN  [org.apa.kaf.cli.con.int.ConsumerCoordinator] (smallrye-kafka-consumer-thread-2) [Consumer clientId=kafka-consumer-binaryObject-in, groupId=module1] Close timed out with 2 pending requests to coordinator, terminating client connections
 ```
 
-Afer I commented out all probes, it runs fine. It seems that the startup probe is not working.
+Afer I commented out all probes, it runs fine. **It seems that the startup probe is not working.**
 
 ```
 startupProbe:
