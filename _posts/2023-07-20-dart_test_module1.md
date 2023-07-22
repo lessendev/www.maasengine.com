@@ -29,10 +29,10 @@ It seems that I didn't run my local build properly. Somehow my kubernetes manife
 - configMapRef:
     name: testsuite-oidc-configmap
 ```
-After rerun, it didn't report this error anymore.
+After rerunning, it didn't report this error anymore.
 
 ### Add startup-probe in application.properties
-After run docker manually, locally, it seems the module1 running just fine. So it must be the startup probe that didn't work properly. I added this:
+After running docker locally, it seems the module1 running just fine. So it must be the startup probe that didn't work properly. I added this:
 
 ```
 quarkus.kubernetes.startup-probe.failure-threshold=3
