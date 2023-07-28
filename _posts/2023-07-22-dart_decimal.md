@@ -1,6 +1,6 @@
 ---
-title: "Dart Test Module 1 GRPC Failed"
-excerpt: "Decimal() is not the same."
+title: "Decimal Solved"
+excerpt: "Git Pull local to get the latest."
 last_modified_at: 2023-07-19T04:37:00-07:00
 tags: 
   - keycloak
