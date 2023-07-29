@@ -24,6 +24,16 @@ Also need to change the environment name to QUARKUS_OIDC_CREDENTIALS_SECRET
 ### Change Keycloak to Cluster IP instead of LoadBalancer
 Comment keycloak manifest the LoadBalancer line. So it will be Cluster IP by default.
 
+## GRPC Reflection
+
+## Keycloak
+It seems that module1 cannot access keycloak via https://bizvelocity.biz:7443. So I switch to http at port 7080. As a result, I have to disable all TLS config and start in dev mode.
+
+But when I try to start keycloak it throws:
+```
+ARJUNA012391: Could not initialize object store 'null' of type 'com.arjuna.ats.internal.arjuna.objectstore.ShadowNoFileLockStore'
+```
+
 ## Task Lists
 - [x] Fix GitHub Actions build-test
 - [ ] Implement Oidc (Keycloak) GRPC Impl tests
